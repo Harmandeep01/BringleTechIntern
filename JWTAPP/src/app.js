@@ -56,7 +56,7 @@ app.post("/login", async (req, res) => {
 
 // Protected Route
 app.get("/protected", defineAuth, (req, res) => {
-  res.json({ message: "This is a protected route", user: req.user });
+  res.json({ message: "This is a protected route", user: req.user  });
 });
 
 const PORT = process.env.PORT || 5000;
