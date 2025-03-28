@@ -10,8 +10,7 @@ A simple Node.js project to upload files.
     npm install
     npm start
     ```
-3. Use Postman or cURL to upload files.
-
+3. Use Postman.
 ## API
 
 ### `POST /upload`
